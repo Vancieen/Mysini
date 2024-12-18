@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+.comic-panel img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    margin-top: 1rem;
+}
+
+.navigation .next-button {
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.navigation .next-button:hover {
+    background-color: #218838;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
